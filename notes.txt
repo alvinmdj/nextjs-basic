@@ -15,3 +15,15 @@ Run:
 npm run dev
 
 ========================================================================
+
+Routing:
+https://nextjs.org/docs/routing/introduction
+
+========================================================================
+
+Create Components:
+- Do not create component inside pages folder
+- Create a new folder in the root dir: components
+- Create component inside the components folder
+
+========================================================================
