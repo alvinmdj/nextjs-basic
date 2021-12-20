@@ -1,0 +1,17 @@
+========================================================================
+
+Official Documentation:
+https://nextjs.org/docs/getting-started
+
+Typescript for JS Programmers:
+https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+
+========================================================================
+
+Setup (with creating a new folder & typescript):
+npx create-next-app@latest root-folder-name --typescript
+
+Run:
+npm run dev
+
+========================================================================
