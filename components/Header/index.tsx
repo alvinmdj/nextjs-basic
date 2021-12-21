@@ -1,5 +1,6 @@
 import { ReactNode } from 'react';
 import {
+  Text,
   Box,
   Flex,
   HStack,
@@ -41,7 +42,7 @@ export default function withAction() {
 
   return (
     <>
-      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={20}>
+      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={10}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
@@ -51,7 +52,7 @@ export default function withAction() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={'center'}>
-            <Box>Logo</Box>
+            <Box><Text as='kbd'>Next.js Basic</Text></Box>
             <HStack
               as={'nav'}
               spacing={4}

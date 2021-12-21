@@ -13,7 +13,7 @@ export default function Layout(props: LayoutProps) {
   return (
     <>
       <Header />
-      <Container height="80%" maxW='container.xl' px={20} mt={5}>{children}</Container>
+      <Container height="80%" maxW='container.xl' px={10} mt={5}>{children}</Container>
       <Footer />      
     </>
   )
