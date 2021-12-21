@@ -16,27 +16,26 @@ export default function Users(props : UsersProps) {
       <Container maxW={'container.xl'} centerContent>
         <Text fontSize='3xl' as='kbd'>User List</Text>
         {userData.map(user => (
-          <Tooltip hasArrow placement='top-start' label="Click me for more details!">
-          <Stack
-            width={'100%'}
-            cursor={'pointer'} 
-            key={ user.id } 
-            onClick={() => router.push(`/users/${user.id}`)}>
-            <Stack backgroundColor={cardColor} p="4" boxShadow="lg" m="4" borderRadius="md">
-              <Stack direction="row" alignItems="center">
-                <Text as='kbd' fontWeight="semibold">User Information</Text>
-              </Stack>
-              <Stack
-                direction={{ base: 'column'}}>
-                <Text as='kbd' fontSize={{ base: 'sm' }}>
-                  Name : { user.name }
-                </Text>
-                <Text as='kbd' fontSize={{ base: 'sm' }}>
-                  E- mail : { user.email }
-                </Text>
+          <Tooltip key={ user.id } hasArrow placement='top-start' label="Click me for more details!">
+            <Stack
+              width={'100%'}
+              cursor={'pointer'} 
+              onClick={() => router.push(`/users/${user.id}`)}>
+              <Stack backgroundColor={cardColor} p="4" boxShadow="lg" m="4" borderRadius="md">
+                <Stack direction="row" alignItems="center">
+                  <Text as='kbd' fontWeight="semibold">User Information</Text>
+                </Stack>
+                <Stack
+                  direction={{ base: 'column'}}>
+                  <Text as='kbd' fontSize={{ base: 'sm' }}>
+                    Name : { user.name }
+                  </Text>
+                  <Text as='kbd' fontSize={{ base: 'sm' }}>
+                    E- mail : { user.email }
+                  </Text>
+                </Stack>
               </Stack>
             </Stack>
-          </Stack>
           </Tooltip>
         ))}
       </Container>

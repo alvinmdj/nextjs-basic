@@ -37,13 +37,14 @@ const NavLink = ({ href, children }: { href: string, children: ReactNode }) => (
   </Link>
 );
 
-export default function withAction() {
-  const { isOpen, onOpen, onClose } = useDisclosure();
-  const { colorMode, toggleColorMode } = useColorMode();
+export default function Header() {
+  const { isOpen, onOpen, onClose } = useDisclosure()
+  const { colorMode, toggleColorMode } = useColorMode()
+  const bgColor = useColorModeValue('gray.100', 'gray.900')
 
   return (
     <>
-      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={10}>
+      <Box bg={bgColor} px={10}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}

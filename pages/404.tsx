@@ -17,7 +17,7 @@ export default function NotFound() {
     <Layout pageTitle="404">
       <Container centerContent>
         <Text textAlign={'center'} fontSize='6xl'>Oh no!</Text>
-        <Text textAlign={'center'} alignItems={'center'}>The page you're looking cannot be found...</Text>
+        <Text textAlign={"center"} alignItems={"center"}>The page you are looking cannot be found...</Text>
         <Divider my={5} orientation='horizontal' />
         <Text textAlign={'center'}>
           Redirecting back to {' '}
