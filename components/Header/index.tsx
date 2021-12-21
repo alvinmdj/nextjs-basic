@@ -11,6 +11,7 @@ import {
   useColorModeValue,
   useColorMode,
   Stack,
+  Tooltip,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from '@chakra-ui/icons';
 import Link from 'next/link';
@@ -66,9 +67,11 @@ export default function Header() {
           </HStack>
           <Flex alignItems={'center'}>
             <Stack direction={'row'} spacing={7}>
-              <Button onClick={toggleColorMode}>
-                {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
-              </Button>
+              <Tooltip hasArrow placement='bottom-start' label="Toggle theme">
+                <Button onClick={toggleColorMode}>
+                  {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+                </Button>
+              </Tooltip>
             </Stack>
           </Flex>
         </Flex>
