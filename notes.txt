@@ -19,6 +19,15 @@ npm run dev
 Routing:
 https://nextjs.org/docs/routing/introduction
 
+Get Static Props:
+https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation
+
+Get Static Paths:
+https://nextjs.org/docs/basic-features/data-fetching#getstaticpaths-static-generation
+
+Get Server Side Props:
+https://nextjs.org/docs/basic-features/data-fetching#getserversideprops-server-side-rendering
+
 ========================================================================
 
 Create Components:
@@ -36,5 +45,10 @@ npm i @chakra-ui/react @chakra-ui/icons @emotion/react@^11 @emotion/styled@^11 f
 
 Chakra Templates:
 https://chakra-templates.dev/
+
+========================================================================
+
+JSON Placeholder API:
+https://jsonplaceholder.typicode.com/users
 
 ========================================================================

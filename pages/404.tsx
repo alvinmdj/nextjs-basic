@@ -16,15 +16,15 @@ export default function NotFound() {
   return (
     <Layout pageTitle="404">
       <Container centerContent>
-        <Text fontSize='6xl'>Oh no!</Text>
-        <Text alignItems={'center'}>The page you're looking cannot be found...</Text>
+        <Text textAlign={'center'} fontSize='6xl'>Oh no!</Text>
+        <Text textAlign={'center'} alignItems={'center'}>The page you're looking cannot be found...</Text>
         <Divider my={5} orientation='horizontal' />
-        <Text>
-          Redirecting back to <span> </span>
+        <Text textAlign={'center'}>
+          Redirecting back to {' '}
           <Link href={'/'}>
             <ChakraLink>homepage</ChakraLink>
           </Link>
-          <span> </span> in 5 seconds...
+          {' '} in 5 seconds...
         </Text>
       </Container>
     </Layout>

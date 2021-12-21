@@ -20,7 +20,7 @@ export default function Layout(props: LayoutProps) {
         <meta name="description" content="Next.js basic web application" />
       </Head>
       <Header />
-      <Container className={styles.content} maxW='container.xl' px={10} my={5}>
+      <Container className={styles.content} maxW='container.xl' p={5}>
         { children }
       </Container>
       <Footer />

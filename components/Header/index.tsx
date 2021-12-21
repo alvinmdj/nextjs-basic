@@ -24,6 +24,7 @@ const Links : { [key: string]: any } = {
 const NavLink = ({ href, children }: { href: string, children: ReactNode }) => (
   <Link href={href}>
     <ChakraLink
+      as='kbd'
       px={2}
       py={1}
       rounded={'md'}
@@ -52,7 +53,7 @@ export default function withAction() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={'center'}>
-            <Box><Text as='kbd'>Next.js Basic</Text></Box>
+            <Box><Text as='kbd' fontWeight={'semibold'}>Next.js Basic</Text></Box>
             <HStack
               as={'nav'}
               spacing={4}
