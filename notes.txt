@@ -8,7 +8,7 @@ https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
 
 ========================================================================
 
-Setup (with creating a new folder & typescript):
+Setup Next.js (with creating a new folder & typescript):
 npx create-next-app@latest root-folder-name --typescript
 
 Run:
@@ -25,5 +25,16 @@ Create Components:
 - Do not create component inside pages folder
 - Create a new folder in the root dir: components
 - Create component inside the components folder
+
+========================================================================
+
+Chakra UI:
+https://chakra-ui.com/docs/getting-started
+
+Setup Chakra UI:
+npm i @chakra-ui/react @chakra-ui/icons @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
+
+Chakra Templates:
+https://chakra-templates.dev/
 
 ========================================================================
