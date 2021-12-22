@@ -67,7 +67,7 @@ export default function Header() {
           </HStack>
           <Flex alignItems={'center'}>
             <Stack direction={'row'} spacing={7}>
-              <Tooltip hasArrow placement='bottom-start' label="Toggle theme">
+              <Tooltip hasArrow placement='auto' label="Toggle Theme">
                 <Button onClick={toggleColorMode}>
                   {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
                 </Button>

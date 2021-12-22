@@ -48,7 +48,7 @@ export default function UserDetail(props: UserDetailProps) {
             { userDetail.address.zipcode }
           </Text>
         </Stack>
-        <Button onClick={() => router.push('/users')}>
+        <Button cursor={'pointer'} as='kbd' onClick={() => router.push('/users')}>
           Back to user list
         </Button>
       </Container>
