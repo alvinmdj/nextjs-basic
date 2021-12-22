@@ -8,7 +8,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Next.js custom 404 page & auto redirection
 - Next.js Head (dynamic metadata creation)
 - Next.js Image (image optimization)
-- Next.js data fetching (getStaticPaths, getStaticProps, and getServerSideProps)
+- Next.js data fetching from JSON Placeholder API {
+    getStaticPaths (in UserDetail page), 
+    getStaticProps (in Users & UserDetail page), 
+    getServerSideProps (in Blog page)
+  }
 - Chakra UI design & light/dark theme toggler
 
 
