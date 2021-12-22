@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## What is inside
+
+- Next.js routing (and dynamically)
+- Next.js global and module CSS
+- Next.js components & layout
+- Next.js custom 404 page & auto redirection
+- Next.js Head (dynamic metadata creation)
+- Next.js Image (image optimization)
+- Next.js data fetching (getStaticPaths, getStaticProps, and getServerSideProps)
+- Chakra UI design & light/dark theme toggler
+
+
 ## Getting Started
 
 First, run the development server:
