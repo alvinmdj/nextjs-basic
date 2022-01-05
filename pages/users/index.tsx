@@ -32,7 +32,6 @@ export default function Users(props : UsersProps) {
                   </Text>
                   <Text as='kbd' fontSize={{ base: 'sm' }}>
                     E- mail : { user.email }
-                    test
                   </Text>
                 </Stack>
               </Stack>
